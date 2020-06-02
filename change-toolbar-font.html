@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- SEO -->
-    <meta name="description" content="My Blog Website">
+    <meta name="description" content="150 words">
     <meta name="author" content="uipasta">
     <meta name="url" content="http://www.yourdomainname.com">
     <meta name="copyright" content="company name">
@@ -41,16 +41,7 @@
 	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167433159-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-167433159-1');
-</script>
-
+    
 
   </head>
 
@@ -79,7 +70,14 @@
                     
                      <div class="my-pic">
                         <img src="images/pic/pic.jpg" alt="">
-                        
+                       
+                         <div id="menu" class="collapse">
+                           <ul class="menu-link">
+                               <li><a href="about.html">About</a></li>
+                               <li><a href="work.html">Work</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                         </div>
                         </div>
                       
                       
@@ -127,15 +125,18 @@
                                 
                                 <!-- Post Headline Start -->
                                 <div class="post-title">
-                                    <h1>Connect Android Device with Wifi within Android Studio</h1> 
+                                    <h1>Change Toolbar Font-Family in Android.</h1> 
+								
                                    </div>
                                    <!-- Post Headline End -->
                                     
                                     
                                 <!-- Post Detail Start -->
                                 <div class="post-info">
-                                    <span>May 22, 2020 / by <a href="#" target="_blank">Danish Amjad</a></span>
+                                    <span>June 2, 2020 / by <a href="#" target="_blank">Danish Amjad</a></span>
+										
                                    </div>
+								   <img src="images/blog/2.jpeg" width="100%" height="auto" alt="">    
                                    <!-- Post Detail End -->
                                     
 									
@@ -143,54 +144,86 @@
                                     
 									
 									
-									<section class="je jf jg jh ji">
-<div class="n p">
-<div class="z ab ac ae af jj ah ai">
-<section class="je jf jg jh ji">
-<div class="n p">
-<div class="z ab ac ae af jj ah ai">
-<section class="je jf jg jh ji">
-<div class="n p">
-<div class="z ab ac ae af jj ah ai">
-<p id="6250" class="mr nd ce bj mt b ke mu ne kg mv nf mw mx kr my mz ks na nb kt nc je" data-selectable-paragraph="">In Android Studio we have a lot of plugins available one of them is&nbsp;<strong class="mt ng">Android wifi ADB.</strong></p>
-<p id="5d0a" class="mr nd ce bj mt b ke mu ne kg mv nf mw mx kr my mz ks na nb kt nc je" data-selectable-paragraph="">Every developer gets irritated when they used a cable to connect with the android device, the android cable itself irritating every time you need to plug the cable with your system this is so hectic isn&rsquo;t?</p>
+									<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<p class="graf graf--p">Nowadays In Android applications, we often have seen custom fonts throughout the application, as the custom font in detailing, the custom font in the toolbar, custom font everywhere in the application. Which makes UI more appropriate and appealing.&nbsp;</p>
+<p class="graf graf--p">In this article, we will learn how we can customize the toolbar font, how to change the Toolbar font family with the help of a theme.</p>
 </div>
 </div>
 </section>
-<hr class="nh ea ni nj nk nl mk nm nn no np nq" />
-<section class="je jf jg jh ji">
-<div class="n p">
-<div class="z ab ac ae af jj ah ai">
-<p id="5c38" class="mr nd ce bj mt b ke mu ne kg mv nf mw mx kr my mz ks na nb kt nc je" data-selectable-paragraph="">So Android Studio comes up with the variety of plugins and<strong class="mt ng">&nbsp;Android wifi adb</strong>&nbsp;is one of them, so let&rsquo;s started how you can set up this plugin in an android studio.</p>
-<p id="763e" class="mr nd ce bj mt b ke mu ne kg mv nf mw mx kr my mz ks na nb kt nc je" data-selectable-paragraph="">If you want to learn through video then check the link below. Also, do subscribe to&nbsp;<a class="bw cu mn mo mp mq" href="https://www.youtube.com/channel/UC06GphxCS1gzZhdT9dn6kQA?view_as=subscriber" target="_blank" rel="noopener">my channel</a>&nbsp;for more Android-related videos.</p>
-<figure class="lq lr ls lt lu lp">
-<div class="mb r fs">
-<div class="nr me r"><iframe class="s t u ep ai" title="Connect Android Device with Wifi within Android Studio | Tutorial |" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FHfnN060sEBs%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHfnN060sEBs&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FHfnN060sEBs%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" width="100%" height="400" frameborder="0" scrolling="auto" allowfullscreen="allowfullscreen"></iframe></div>
+<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<h3 class="graf graf--h3">Change Font for&nbsp;TextView</h3>
+<p class="graf graf--p">Before directly jumping towards custom toolbar font, first, see how we can easily change the font family for <code class="markup--code markup--p-code">TextView</code> in Android.</p>
+<p class="graf graf--p">We just need to add the <code class="markup--code markup--p-code">font-family</code> attribute in our <code class="markup--code markup--p-code">TextView</code> like the below code snippet.</p>
+<pre class="graf graf--pre">&lt;androidx.appcompat.widget.AppCompatTextView<br />    android:id="@+id/heading"<br />    android:layout_width="match_parent"<br />    android:layout_height="wrap_content"<br />    <strong class="markup--strong markup--pre-strong">android:fontFamily="@font/montserrat_semi_bold"</strong><br />    android:textSize="16sp"<br />    android:ellipsize="end"<br />    android:gravity="center"/&gt;</pre>
+<p class="graf graf--p">Simply add an <code class="markup--code markup--p-code"><strong class="markup--strong markup--p-strong">android:fontFamily</strong></code> attribute and it will do the magic. It&rsquo;s so simple to change the font family for <code class="markup--code markup--p-code">Textview</code></p>
 </div>
+</div>
+</section>
+<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<h3 class="graf graf--h3">Change Font for&nbsp;Toolbar</h3>
+<p class="graf graf--p">Now, In Android, we often need to change the font-family for Toolbar as well to look more appealing UI for our end-users.&nbsp;</p>
+<p class="graf graf--p">To do so we need to define the theme in our toolbar with <code class="markup--code markup--p-code">app:theme</code> attribute like the below code snippet.</p>
+<pre class="graf graf--pre">&lt;androidx.appcompat.widget.Toolbar<br />    android:id="@+id/toolbar"<br />    android:layout_width="match_parent"<br />    android:layout_height="wrap_content"<br />    <strong class="markup--strong markup--pre-strong">app:theme="@style/AppTheme.ToolbarFont"</strong> /&gt;</pre>
+<p class="graf graf--p">Before that, we have to add the theme in our <code class="markup--code markup--p-code">styles.xml</code> file and we have to define font-family in that style like the below code snippet.</p>
+<pre class="graf graf--pre">&lt;style name="AppTheme.ToolbarFont" parent="AppTheme"&gt;<br />    &lt;!--This line changes the color of text in Toolbar--&gt;<br />    &lt;item name="android:textColorPrimary"&gt;@color/black&lt;/item&gt;<br />    &lt;!--This line changes the color of icons in toolbar (back, overflow menu icons)--&gt;<br />    &lt;item name="android:textColorSecondary"&gt;@color/azul&lt;/item&gt;<br />    &lt;item name="textAllCaps"&gt;false&lt;/item&gt;<br />    &lt;item name="android:textSize"&gt;16sp&lt;/item&gt;<br />    <strong class="markup--strong markup--pre-strong">&lt;item name="android:fontFamily"&gt;@font/montserrat_semi_bold&lt;/item&gt;</strong><br />&lt;/style&gt;</pre>
+</div>
+</div>
+</section>
+<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<h3 class="graf graf--h3">Add Custom Fonts to the resource&nbsp;folder</h3>
+<p class="graf graf--p">To add custom fonts we need to create a folder with the name <strong class="markup--strong markup--p-strong">&ldquo;font&rdquo;</strong> in the <strong class="markup--strong markup--p-strong">res</strong> directory like the below screenshot.</p>
+<figure class="graf graf--figure"><img src="images/blog/font_screenshot.png" width="100%" height="auto"  alt="">
+<center><figcaption class="imageCaption">Android Studio font folder screenshot</figcaption></center>
 </figure>
 </div>
 </div>
 </section>
-<hr class="nh ea ni nj nk nl mk nm nn no np nq" />
-<section class="je jf jg jh ji">
-<div class="n p">
-<div class="z ab ac ae af jj ah ai">
-<h1 id="bb39" class="ns nt ce bj bi dd jn nu jp nv nw nx ny nz oa ob oc" data-selectable-paragraph="">Step 1:</h1>
-<p id="dec9" class="mr nd ce bj mt b ke od ne kg oe nf mw of kr my og ks na oh kt nc je" data-selectable-paragraph="">Go to File -&gt; Settings</p> <br>  <img src="images/blog/image1.png" alt="">
-<h1 id="c7b7" class="ns nt ce bj bi dd jn ok jp ol nw om ny on oa oo oc" data-selectable-paragraph="">Step 2 :</h1>
-<p id="c791" class="mr nd ce bj mt b ke od ne kg oe nf mw of kr my og ks na oh kt nc je" data-selectable-paragraph="">Go to Plugins and Browse the repository and Search Android Wifi ADB and install it.</p> <br>  <img src="images/blog/image2.png" width="100%" height="auto"  alt="">
-<h1 id="bb77" class="ns nt ce bj bi dd jn ok jp ol nw om ny on oa oo oc" data-selectable-paragraph="">Step 3:</h1>
-<p id="f89e" class="mr nd ce bj mt b ke od ne kg oe nf mw of kr my og ks na oh kt nc je" data-selectable-paragraph="">Then restart your Android Studio and now you can see on the right side panel the section of android wifi ADB, Now just plug your Android device and press the connect button after that the state will be<strong class="mt ng">&nbsp;&ldquo;Connected&rdquo;</strong>. Now you are&nbsp;abl&nbsp;to do your testing through wifi.</p> <br>  <img src="images/blog/image3.png" width="100%" height="auto"  alt="">
+<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<h3 class="graf graf--h3">Result</h3>
+<p class="graf graf--p">Voila!!! We have achieved a custom font in our toolbar.</p>
+<figure class="graf graf--figure"><img src="images/blog/font_result.png" width="100%" height="auto"  alt="">
+</center><figcaption class="imageCaption">Screenshot of Custom Toolbar&nbsp;font</figcaption></center>
+</figure>
 </div>
 </div>
 </section>
-<hr class="nh ea ni nj nk nl mk nm nn no np nq" />
+<section class="section section--body">
+<div class="section-divider"><hr class="section-divider" /></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn">
+<h3 class="graf graf--h3">Conclusion</h3>
+<p class="graf graf--p">This article taught you how you can simply change your toolbar font with the help of a theme, also described how you can set the font for the <code class="markup--code markup--p-code">Textview</code> with just a single line.&nbsp;</p>
+<p class="graf graf--p">I hope this article is helpful. If you think something is missing, have questions, or would like to offer any thoughts or suggestions, go ahead and leave a comment below. I&rsquo;d appreciate the feedback.</p>
+</div>
+</div>
+</section>
+<div class="n p">
+<div class="z ab ac ae af jj ah ai">
 <section class="je jf jg jh ji">
 <div class="n p">
 <div class="z ab ac ae af jj ah ai">
-<p id="71cb" class="mr nd ce bj mt b ke mu ne kg mv nf mw mx kr my mz ks na nb kt nc je" data-selectable-paragraph="">That&rsquo;s it you have done :) now no more cable required every time.</p>
 
-<p> I hope this article is helpful. If you think something is missing, have questions, or would like to give feedback, please reach me out at dani.amjad12@gmail.com. I’d appreciate the feedback.</p>
+
+
+<section class="je jf jg jh ji">
+<div class="n p">
+<div class="z ab ac ae af jj ah ai">
+
 
 <p> Sharing (knowledge) is caring 😊 Thanks for reading this article.</p>
 </div>
