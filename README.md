@@ -1,7 +1,7 @@
-# danishamjad
+# danishamjad.com
 Personal Blog Website
 
-License
+# License
 The content of the site (blog posts, presentation slides, etc.) are licensed as Creative Commons CC BY 4.0.
 
 The code powering the site is licensed as:
